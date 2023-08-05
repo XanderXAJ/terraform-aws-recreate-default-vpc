@@ -11,6 +11,7 @@ It's possible to recreate the default VPC in a given AWS region using [Terraform
 ## I've only lost some default VPC resources
 
 If you've only lost _some_ default VPC resources, Terraform will not recreate them.
+[See the `aws_default_vpc` docs for more details.](aws_default_vpc)
 
 To recreate them, you'll need to completely destroy the existing default VPC:
 
